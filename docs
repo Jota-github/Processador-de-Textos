@@ -1,0 +1,14 @@
+# Registro de Uso de IA - Questão 1
+
+## Problema
+Aplicar o padrão Template Method para unificar processadores de texto (Maiúscula e Minúscula).
+
+## Prompts Utilizados
+1. "Aplique o padrão Template Method para unificar e simplificar os códigos [código original aqui]..."
+2. "Gere a estrutura de pastas e a classe abstrata primeiro."
+3. "Gere as classes concretas implementando os métodos abstratos."
+
+## Ajustes e Racional
+A IA sugeriu corretamente a criação de uma classe abstrata `ProcessadorTexto`.
+- **Mudança na abordagem:** O código original usava métodos `static`. A solução foi ajustada para métodos de instância para permitir o uso de herança e polimorfismo, essenciais para o Template Method.
+- **Implementação:** A lógica de iteração (`for` loop) sugerida pela IA para converter os caracteres foi mantida, pois preenche corretamente os métodos que estavam como `TODO`.
